@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "examples/opentelemetry-zipkin",
+    "examples/opentelemetry-zipkin-tokio-main",
+]

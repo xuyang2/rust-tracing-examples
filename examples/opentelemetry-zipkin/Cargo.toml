@@ -1,0 +1,20 @@
+[package]
+name = "tracing-examples-opentelemetry-zipkin"
+version = "0.0.0"
+publish = false
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = []
+
+
+[dependencies]
+opentelemetry = { version = "0.16" }
+opentelemetry-zipkin = { version = "0.14" }
+reqwest = { version = "0.11" }
+tracing = { version = "0.1" }
+tracing-attributes = { version = "0.1" }
+tracing-opentelemetry = { version = "0.16" }
+tracing-subscriber = { version = "0.3" }
